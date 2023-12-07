@@ -17,7 +17,7 @@ export default function App() {
   return (
     <Provider store={store}>
       <NavigationContainer>
-        <Stack.Navigator screenOptions={{}}>
+        <Stack.Navigator initialRouteName="ListDonut">
           {/* <Stack.Screen name="Home" component={Home} options={{headerShown:false}}></Stack.Screen> */}
           <Stack.Screen name="ListDonut" component={ListDonut} options={{headerShown:false}}></Stack.Screen>
           <Stack.Screen name="DetailsDonut" component={DetailsDonut} ></Stack.Screen>
